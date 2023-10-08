@@ -37,7 +37,7 @@ function App() {
   useEffect(() => {
     // 1. Question Bank: this is what I have to resort to if I can't pay server costs. Lol.
     // This is 'All'.
-    fetch('/IndividualVerbQuestionSets/бежать.json', {
+    fetch('/ConjugationSite/IndividualVerbQuestionSets/бежать.json', {
       headers: {
         'Content-Type': 'application/json',
         'Accept': 'application/json'
@@ -56,7 +56,7 @@ function App() {
         }, 1000);
       });
 
-    fetch('/IndividualVerbConjugations.json', {
+    fetch('/ConjugationSite/IndividualVerbConjugations.json', {
       headers: {
         'Content-Type': 'application/json',
         'Accept': 'application/json'
@@ -118,7 +118,7 @@ function App() {
       setLoading(false)
     } else {
       let fileName = event.target.value + ".json"
-      fetch('/IndividualVerbQuestionSets/' + fileName, {
+      fetch('/ConjugationSite/IndividualVerbQuestionSets/' + fileName, {
         headers: {
           'Content-Type': 'application/json',
           'Accept': 'application/json'

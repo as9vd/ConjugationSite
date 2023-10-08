@@ -1,0 +1,35 @@
+.alphabet-grid {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    gap: 1rem;
+}
+
+.letter-button {
+    font-size: 2rem;
+    padding: 1.5rem;
+    cursor: pointer;
+    border: 1.5px solid black;
+    border-radius: 1rem;
+    background-color: #ECEFF4;
+}
+
+.letter-button:active {
+    animation: growAndShine 0.2s ease-in-out forwards;
+}
+
+@keyframes growAndShine {
+    0% {
+        transform: scale(1);
+        filter: brightness(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+        filter: brightness(1.25);
+    }
+
+    100% {
+        transform: scale(1);
+        filter: brightness(1);
+    }
+}

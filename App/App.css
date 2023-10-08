@@ -1,0 +1,87 @@
+* {
+    background-color: #D8DEE9;
+}
+
+.app-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.4rem;
+}
+
+.container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+.loading-txt {
+    font-size: 2.4rem;
+}
+
+.verb-select {
+    background-color: #ECEFF4;
+    font-size: 2.4rem;
+    border: 1.5px solid black;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+.fade-in {
+    animation: fadeIn ease-in 0.5s;
+    opacity: 1;
+}
+
+.fade-out {
+    animation: fadeOut ease-in 0.5s;
+    opacity: 0;
+}
+
+.conjugation-set {
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+    align-items: center;
+}
+
+.conjugation-set p {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.toggle-button:active {
+    background-color: #3B4252;
+    color: white;
+}
+
+.hidden-conj {
+    opacity: 0;
+    transition: opacity 0.25s ease-in-out;
+}
+
+.visible-conj {
+    opacity: 1;
+    transition: opacity 0.25s ease-in-out;
+}

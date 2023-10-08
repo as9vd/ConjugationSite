@@ -1,2 +1,2 @@
-# ConjugationSite
-Conjugate Russian verbs.
+# Conjugation Site 👺
+Conjugate Russian verbs for practice.

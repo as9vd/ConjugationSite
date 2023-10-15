@@ -1,4 +1,4 @@
-# Things I Gotta Do 🐥
+## Things I Gotta Do 🐥
 
 This is like a Motorola. Indestructable, and good for one thing. Logical part of it looks grand.
 1. Animate resizing of grid,
